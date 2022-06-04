@@ -1,0 +1,34 @@
+.outer {
+  border: 1px solid blue;
+  width: 100px;
+  height: 100px;
+}
+.inner {
+  width: 10px;
+  height: 10px;
+  background: purple;
+}
+
+.outer:hover .inner {
+  animation-name: animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+  25% {
+    transform: translateX(90px);
+  }
+
+  50% {
+    transform: translate(90px, 90px);
+  }
+
+  75% {
+    transform: translateY(90px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
