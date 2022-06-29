@@ -1,0 +1,26 @@
+.list {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 500px;
+  height: 300px;
+  list-style: none;
+
+  border: 2px dashed blue;
+}
+
+.list-draggable {
+  margin-top: 10px;
+  border: 2px dashed red;
+}
+
+.draggable {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  border: 1px dashed grey;
+}
+
+.ondrag {
+  background-color: grey;
+}
